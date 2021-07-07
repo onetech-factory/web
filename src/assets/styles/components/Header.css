@@ -1,0 +1,90 @@
+.header {
+    background-color: brown;
+}
+
+.header__brand {
+    margin-top: 10px;
+    margin-left: 30px;
+
+    /*flex*/
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.header__brand i {
+    color: white;
+    font-size: 2.5rem;
+    margin-right: 10px;
+}
+
+.header__brand h2 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.header__menu {
+    height: 70px;
+
+    /*flex*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+.header__links {
+    margin-right: 60px;
+}
+
+.header__links a {
+    color: white;
+    font-weight: 600;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.header__links a:hover {
+    text-decoration: underline;
+}
+
+.header__phrase {
+    background: url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80");
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    /*flex*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__phrase h1 {
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 40px;
+    width: 60%;
+}
+
+.header__phrase button {
+    background-color: brown;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: inline-block;
+    padding: 10px 60px;
+}
+
+.header__phrase button:hover {
+    background-color: rgb(168, 68, 68);
+}
