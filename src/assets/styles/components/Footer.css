@@ -1,0 +1,13 @@
+.footer {
+    height: 10git 0px;
+
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__copyright {
+    font-size: .8rem;
+    font-weight: 400;
+}
