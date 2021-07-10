@@ -1,0 +1,60 @@
+.about {
+    height: 100vh;
+    margin: 60px auto;
+    width: 80%;
+}
+
+.about__title {
+    font-size: 2rem;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.about__container {
+    /*flex*/
+    display: flex;
+    flex-direction: row;
+}
+
+.about__images {
+    position: relative;
+    width: 50%;
+}
+
+.about__images--background {
+    width: 100%;
+}
+
+.about__content {
+    padding-left: 80px;
+    width: 50%;
+}
+
+.about__text {
+    margin-bottom: 20px;
+}
+
+.about__text h3 {
+    color: black;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.about__text p {
+    color: gray;
+    line-height: 1.6rem;
+}
+
+.about__links a {
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+
+.fa-linkedin {
+    color: #0e76a8;
+}
+
+.fa-envelope-square {
+    color: #EA4335;
+}
