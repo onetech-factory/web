@@ -1,0 +1,17 @@
+.contact {
+    height: 100vh;
+}
+
+.contact__title {
+    background-color: rgb(236, 236, 236);
+    font-size: 2rem;
+    height: 140px;
+    line-height: 140px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.contact__form {
+    margin: 0 auto;
+    width: 60%;
+}
