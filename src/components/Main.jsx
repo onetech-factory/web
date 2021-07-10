@@ -10,7 +10,7 @@ const Main = () => {
     }, []);
 
     return (
-        <section className="main" data-aos="fade-up">
+        <section className="main" data-aos="fade-up" id="main">
             <h2 className="main__title">Servicios</h2>
             <div className="main__cards">
                 <div className="main__card">

@@ -1,14 +1,11 @@
 .footer {
-    height: 100px;
-
-    /*flex*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-top: 200px;
 }
 
 .footer__copyright {
-    color: gray;
+    color: #3a3a3a;
     font-size: .8rem;
     font-weight: 400;
+    line-height: 70px;
+    text-align: center;
 }

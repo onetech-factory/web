@@ -1,5 +1,6 @@
 .contact {
     height: 100vh;
+    padding-top: 100px;
 }
 
 .contact__title {
@@ -17,7 +18,7 @@
 }
 
 .contact__form p {
-    color: gray;
+    color: #3a3a3a;
     font-size: 1rem;
     font-weight: 800;
     margin-bottom: 40px;
@@ -35,7 +36,7 @@
 .contact__inputs input {
     border: none;
     border-bottom: 2px solid rgb(184, 184, 184);
-    color: gray;
+    color: #3a3a3a;
     font-size: 1rem;
     font-family: "mulish", sans-serif;
     margin-bottom: 40px;
@@ -53,7 +54,7 @@
 .contact__textarea {
     border: none;
     border-bottom: 2px solid rgb(184, 184, 184);
-    color: gray;
+    color: #3a3a3a;
     font-size: 1rem;
     font-family: "mulish", sans-serif;
     height: 100px;

@@ -10,7 +10,7 @@ const About = () => {
     }, []);
 
     return (
-        <section className="about" data-aos="fade-up">
+        <section className="about" data-aos="fade-up" id="about">
             <h2 className="about__title">Acerca de</h2>
             <div className="about__container">
                 <div className="about__images">

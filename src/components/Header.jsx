@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import "../assets/styles/components/Header.css";
 import logo from "../assets/static/logo.png";
 import Particles from "react-particles-js";
@@ -6,17 +7,17 @@ import Fondo from "../assets/static/fondo.svg";
 
 const Header = () => {
     return (
-        <section className="header">
+        <section className="header" id="header">
             <nav className="header__menu">
                 <div className="header__brand">
                     <img src={logo} alt="logo onetech" />
                 </div>
 
                 <div className="header__links">
-                    <a href="/">Home</a>
-                    <a href="/">Servicios</a>
-                    <a href="/">Acerca de</a>
-                    <a href="/">Contacto</a>
+                    <Link to="header" smooth="true" duration="1000">Inicio</Link>
+                    <Link to="main" smooth="true" duration="1000">Servicios</Link>
+                    <Link to="about" smooth="true" duration="1000">Acerca de</Link>
+                    <Link to="contact" smooth="true" duration="1000">Contacto</Link>
                 </div>
             </nav>
 
@@ -56,7 +57,7 @@ const Header = () => {
                             width: 1,
                         },
                         collisions: {
-                          enable: true,
+                            enable: true,
                         }
                     },
                     detectRetina: true,
