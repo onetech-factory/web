@@ -13,5 +13,75 @@
 
 .contact__form {
     margin: 0 auto;
-    width: 60%;
+    width: 40%;
+}
+
+.contact__form p {
+    color: gray;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact__inputs {
+    /*flex*/
+    display: flex;
+    flex-direction: row;
+}
+
+.contact__inputs input {
+    border: none;
+    border-bottom: 2px solid rgb(184, 184, 184);
+    color: gray;
+    font-size: 1rem;
+    font-family: "mulish", sans-serif;
+    margin-bottom: 40px;
+    outline: none;
+    padding: 10px 20px;
+
+    /*flex*/
+    flex-grow: 1;
+}
+
+.contact__inputs input:focus {
+    border-bottom: 2px solid black;
+}
+
+.contact__textarea {
+    border: none;
+    border-bottom: 2px solid rgb(184, 184, 184);
+    color: gray;
+    font-size: 1rem;
+    font-family: "mulish", sans-serif;
+    height: 100px;
+    margin-bottom: 40px;
+    outline: none;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.contact__textarea:focus {
+    border-bottom: 2px solid black;
+}
+
+.contact button {
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: .8rem;
+    font-weight: 800;
+    margin: 0 auto;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    width: 150px;
+}
+
+.contact button:hover {
+    background-color: rgb(32, 32, 32);
 }

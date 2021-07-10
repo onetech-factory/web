@@ -1,6 +1,7 @@
 .about {
     height: 100vh;
     margin: 60px auto;
+    margin-bottom: 0;
     width: 80%;
 }
 
