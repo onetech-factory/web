@@ -18,28 +18,3 @@
     gap: 40px;
 }
 
-.main__card {
-    text-align: justify;
-}
-
-.main__card i,
-.main__card h3 {
-    text-align: center;
-}
-
-.main__card i {
-    display: block;
-    font-size: 5rem;
-    margin-bottom: 40px;
-}
-
-.main__card h3 {
-    color: black;
-    font-size: 1rem;
-    font-weight: 800;
-    margin-bottom: 10px;
-}
-
-.main__card p {
-    color: #3a3a3a;
-}
