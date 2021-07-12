@@ -14,10 +14,10 @@ const Header = () => {
                 </div>
 
                 <div className="header__links">
-                    <Link to="header" smooth="true" duration="1000" className="header__link">Inicio</Link>
-                    <Link to="main" smooth="true" duration="1000" className="header__link">Servicios</Link>
-                    <Link to="about" smooth="true" duration="1000" className="header__link">Acerca de</Link>
-                    <Link to="contact" smooth="true" duration="1000" className="header__link">Contacto</Link>
+                    <Link to="header" className="header__link">Inicio</Link>
+                    <Link to="main" className="header__link">Servicios</Link>
+                    <Link to="about" className="header__link">Acerca de</Link>
+                    <Link to="contact" className="header__link">Contacto</Link>
                 </div>
             </nav>
 
@@ -26,7 +26,7 @@ const Header = () => {
                     Conectamos Hoy con el Futuro,
                     entregando siempre la milla extra.
                 </h1>
-                <i class="fas fa-arrow-down"></i>
+                <i className="fas fa-arrow-down"></i>
                 <img src={Fondo} alt="website" />
             </div>
             <Particles

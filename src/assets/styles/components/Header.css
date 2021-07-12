@@ -44,6 +44,7 @@
 
 .header__link {
     color: black;
+    cursor: pointer;
     font-size: 1rem;
     font-weight: 800;
     margin-right: 30px;
@@ -51,7 +52,7 @@
     text-decoration: none;
 }
 
-.header_link:hover {
+.header__link:hover {
     text-decoration: underline;
 }
 
