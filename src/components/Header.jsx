@@ -14,10 +14,10 @@ const Header = () => {
                 </div>
 
                 <div className="header__links">
-                    <Link to="header" className="header__link">Inicio</Link>
-                    <Link to="main" className="header__link">Servicios</Link>
-                    <Link to="about" className="header__link">Acerca de</Link>
-                    <Link to="contact" className="header__link">Contacto</Link>
+                    <Link to="header" smooth="true" className="header__link">Inicio</Link>
+                    <Link to="main" smooth="true" className="header__link">Servicios</Link>
+                    <Link to="about" smooth="true" className="header__link">Acerca de</Link>
+                    <Link to="contact" smooth="true" className="header__link">Contacto</Link>
                 </div>
             </nav>
 
