@@ -16,7 +16,7 @@
 
 .header__brand {
     margin-left: 30px;
-    width: 200px;
+    width: 177px;
 
     /*flex*/
     display: flex;
@@ -71,11 +71,18 @@
     align-items: center;
 }
 
+.header__phrase span {
+    color: rgb(146, 146, 146);
+    font-size: 4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
 .header__phrase h1 {
     color: black;
-    font-size: 2rem;
+    font-size: 5rem;
     margin-bottom: 40px;
-    width: 60%;
+    width: 70%;
 }
 
 .header__phrase button {
@@ -120,7 +127,12 @@
     z-index: -10;
 }
 
-@keyframes flecha {
+/* @keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+} */
+
+/* @keyframes flecha {
     0% {
         margin-bottom: 50px;
     }
@@ -130,4 +142,4 @@
     100% {
         margin-bottom: 50px;
     }
-}
+} */

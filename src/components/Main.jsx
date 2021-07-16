@@ -12,22 +12,22 @@ const Main = () => {
 
     return (
         <section className="main" data-aos="fade-up" id="main">
-            <h2 className="main__title">Servicios</h2>
+            <h2 className="main__title">Nuestros servicios</h2>
             <div className="main__cards">
                 <Card 
                     icon="fas fa-desktop"
-                    title="Paginas web"
-                    text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae commodi architecto voluptas eum quo quibusdam, totam nostrum exercitationem magnam, repellat mollitia rerum id nisi impedit ut nihil rem omnis optio reiciendis cupiditate doloremque. Dignissimos sit id temporibus vitae nobis, incidunt, maiores ipsam sint soluta impedit harum blanditiis aut laboriosam assumenda."
+                    title="Creación de sitios web"
+                    text="Realizamos diseños exclusivos según la necesitad del cliente. Sitios 100% programados y diseñados a medida. Desde la idea más simple a la más compleja."
                 />
                 <Card 
                     icon="fas fa-mobile-alt"
-                    title="Adaptadas a móviles"
-                    text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae commodi architecto voluptas eum quo quibusdam, totam nostrum exercitationem magnam, repellat mollitia rerum id nisi impedit ut nihil rem omnis optio reiciendis cupiditate doloremque. Dignissimos sit id temporibus vitae nobis, incidunt, maiores ipsam sint soluta impedit harum blanditiis aut laboriosam assumenda."
+                    title="Adaptados a móviles"
+                    text="Sitios web totalmente adaptados para ser utilizados en cualquier dispositivo, ya sea computadoras de escritorio, tablets, o smartphones."
                 />
                 <Card 
                     icon="fas fa-clipboard-check"
-                    title="Excelente calidad"
-                    text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae commodi architecto voluptas eum quo quibusdam, totam nostrum exercitationem magnam, repellat mollitia rerum id nisi impedit ut nihil rem omnis optio reiciendis cupiditate doloremque. Dignissimos sit id temporibus vitae nobis, incidunt, maiores ipsam sint soluta impedit harum blanditiis aut laboriosam assumenda."
+                    title="Asesoramiento"
+                    text="Contanos la idea de tu proyecto. Nosotros nos encargamos de entender tu necesidad y llevarlo a cabo."
                 />
             </div>
         </section>

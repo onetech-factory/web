@@ -13,7 +13,7 @@ const Contact = () => {
         <section className="contact" data-aos="fade-up" id="contact">
             <h2 className="contact__title">Contacto</h2>
             <form action="/" className="contact__form">
-                <p>Envianos tu consulta</p>
+                <p>Envianos tu consulta y nos pondremos en contacto!</p>
                 <div className="contact__inputs">
                     <input type="text" placeholder="Nombre" />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

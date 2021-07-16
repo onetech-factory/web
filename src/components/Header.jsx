@@ -1,4 +1,5 @@
 import React from "react";
+import Typical from 'react-typical'
 import { Link } from "react-scroll";
 import "../assets/styles/components/Header.css";
 import logo from "../assets/static/logo.png";
@@ -6,6 +7,7 @@ import Particles from "react-particles-js";
 import Fondo from "../assets/static/fondo.svg";
 
 const Header = () => {
+
     return (
         <section className="header" id="header">
             <nav className="header__menu">
@@ -23,13 +25,20 @@ const Header = () => {
 
             <div className="header__phrase">
                 <h1>
-                    Conectamos Hoy con el Futuro,
-                    entregando siempre la milla extra.
+                    Somos <span>onetech</span>
+                    <Typical
+                        steps={[
+                            ' Sitios web a medida.', 2000,
+                            ' Adaptado para moviles.', 2000
+                        ]}
+                        loop={Infinity}
+                        wrapper="p"
+                    />
                 </h1>
-                <i className="fas fa-arrow-down"></i>
-                <img src={Fondo} alt="website" />
+                <i class="fas fa-location-arrow"></i>
+                {/* <img src={Fondo} alt="website" /> */}
             </div>
-            <Particles
+            {/* <Particles
                 className="header__particles"
                 options={{
                     background: {
@@ -69,7 +78,7 @@ const Header = () => {
                             }
                         }
                     }
-                }} />
+                }} /> */}
         </section>
     )
 };

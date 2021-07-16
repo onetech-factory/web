@@ -14,10 +14,10 @@
 }
 
 .card h3 {
-    color: black;
-    font-size: 1rem;
-    font-weight: 800;
-    margin-bottom: 10px;
+    color: rgb(146, 146, 146);;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .card p {

@@ -1,13 +1,13 @@
 .main {
-    height: calc(100vh - 60);
+    height: calc(100vh);
     margin: 0 auto;
     padding-top: 100px;
-    width: 60%;
+    width: 80%;
 }
 
 .main__title {
-    font-size: 2rem;
-    margin-bottom: 80px;
+    font-size: 3rem;
+    margin-bottom: 100px;
     text-align: center;
 }
 
