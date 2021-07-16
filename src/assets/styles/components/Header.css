@@ -72,9 +72,9 @@
 }
 
 .header__phrase span {
-    color: rgb(146, 146, 146);
-    font-size: 4rem;
-    font-weight: 900;
+    color: #fca311;
+    font-size: 3.8rem;
+    font-weight: 800;
     text-transform: uppercase;
 }
 

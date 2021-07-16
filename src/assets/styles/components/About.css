@@ -1,5 +1,5 @@
 .about {
-    height: calc(100vh - 60);
+    height: calc(100vh);
     margin: 0 auto;
     padding-top: 100px;
     width: 80%;
@@ -7,7 +7,15 @@
 
 .about__title {
     font-size: 3rem;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.separator {
+    color: #fca311;
+    display: block;
+    margin-bottom: 40px;
+    line-height: 0;
     text-align: center;
 }
 
@@ -37,13 +45,13 @@
 
 .about__text h3 {
     color: black;
-    font-size: 1rem;
-    font-weight: 800;
+    font-size: 1.2rem;
+    font-weight: 700;
     margin-bottom: 10px;
 }
 
 .about__text p {
-    color: #3a3a3a;
+    color: rgb(156, 156, 156);
     line-height: 1.6rem;
 }
 
@@ -53,9 +61,9 @@
 }
 
 .fa-linkedin {
-    color: #0e76a8;
+    color: #fca311;
 }
 
 .fa-envelope-square {
-    color: #EA4335;
+    color: #fca311;
 }

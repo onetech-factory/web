@@ -8,8 +8,8 @@
 }
 
 .footer__copyright {
-    color: #3a3a3a;
+    color: rgb(156, 156, 156);
     font-size: .8rem;
     font-weight: 400;
-    line-height: 70px;
+    line-height: 50px;
 }

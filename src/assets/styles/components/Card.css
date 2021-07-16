@@ -1,5 +1,11 @@
 .card {
+    border: 2px solid silver;
+    padding: 30px 10px;
     text-align: justify;
+}
+
+.card:hover {
+    background-color: #fca2113f;
 }
 
 .card i,
@@ -8,18 +14,19 @@
 }
 
 .card i {
+    color: #fca311;
     display: block;
-    font-size: 5rem;
+    font-size: 3.8rem;
     margin-bottom: 40px;
 }
 
 .card h3 {
-    color: rgb(146, 146, 146);;
+    color: black;
     font-size: 1.2rem;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
 .card p {
-    color: #3a3a3a;
+    color: rgb(156, 156, 156);
 }

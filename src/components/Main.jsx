@@ -13,6 +13,8 @@ const Main = () => {
     return (
         <section className="main" data-aos="fade-up" id="main">
             <h2 className="main__title">Nuestros servicios</h2>
+            <span className="separator">•</span>
+            <p className="main__subtitle">Construimos soluciones de softwares adaptadas a tus necesidades</p>
             <div className="main__cards">
                 <Card 
                     icon="fas fa-desktop"

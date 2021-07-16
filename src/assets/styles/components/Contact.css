@@ -4,11 +4,8 @@
 }
 
 .contact__title {
-    background-color: rgb(236, 236, 236);
     font-size: 3rem;
-    height: 140px;
-    line-height: 140px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -18,13 +15,11 @@
 }
 
 .contact__form p {
-    color: #3a3a3a;
-    font-size: .9rem;
-    font-weight: 800;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
     margin-bottom: 40px;
-    letter-spacing: 1.3px;
     text-align: center;
-    text-transform: uppercase;
 }
 
 .contact__inputs {
@@ -36,7 +31,7 @@
 .contact__inputs input {
     border: none;
     border-bottom: 2px solid rgb(184, 184, 184);
-    color: #3a3a3a;
+    color: black;
     font-size: 1rem;
     font-family: "mulish", sans-serif;
     margin-bottom: 40px;
@@ -49,6 +44,10 @@
 
 .contact__inputs input:focus {
     border-bottom: 2px solid black;
+}
+
+.contact__inputs input::placeholder {
+    color: rgb(184, 184, 184);
 }
 
 .contact__textarea {
@@ -64,12 +63,16 @@
     width: 100%;
 }
 
+.contact__textarea::placeholder {
+    color: rgb(184, 184, 184);
+}
+
 .contact__textarea:focus {
     border-bottom: 2px solid black;
 }
 
 .contact button {
-    background-color: black;
+    background-color: #fca311;
     border: none;
     border-radius: 10px;
     color: white;
@@ -79,10 +82,11 @@
     font-weight: 800;
     margin: 0 auto;
     padding: 10px 20px;
+    transition: box-shadow 250ms ease;
     text-transform: uppercase;
     width: 150px;
 }
 
 .contact button:hover {
-    background-color: rgb(32, 32, 32);
+    box-shadow: 3px 3px 3px silver;
 }

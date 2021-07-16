@@ -38,7 +38,7 @@ const Header = () => {
                 <i class="fas fa-location-arrow"></i>
                 {/* <img src={Fondo} alt="website" /> */}
             </div>
-            {/* <Particles
+            <Particles
                 className="header__particles"
                 options={{
                     background: {
@@ -78,7 +78,7 @@ const Header = () => {
                             }
                         }
                     }
-                }} /> */}
+                }} />
         </section>
     )
 };

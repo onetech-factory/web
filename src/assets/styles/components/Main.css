@@ -7,7 +7,21 @@
 
 .main__title {
     font-size: 3rem;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.separator {
+    color: #fca311;
+    display: block;
+    margin-bottom: 20px;
+    line-height: 0;
+    text-align: center;
+}
+
+.main__subtitle {
+    color: rgb(156, 156, 156);
+    margin-bottom: 60px;
     text-align: center;
 }
 
@@ -15,6 +29,6 @@
     /*grid*/
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    gap: 20px;
 }
 
