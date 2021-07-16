@@ -10,7 +10,7 @@ const Header = () => {
 
     return (
         <section className="header" id="header">
-            <nav className="header__menu">
+            {/* <nav className="header__menu">
                 <div className="header__brand">
                     <img src={logo} alt="logo onetech" />
                 </div>
@@ -21,7 +21,7 @@ const Header = () => {
                     <Link to="about" smooth="true" className="header__link">Acerca de</Link>
                     <Link to="contact" smooth="true" className="header__link">Contacto</Link>
                 </div>
-            </nav>
+            </nav> */}
 
             <div className="header__phrase">
                 <h1>
