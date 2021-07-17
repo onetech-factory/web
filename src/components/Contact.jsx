@@ -13,14 +13,14 @@ const Contact = () => {
         <section className="contact" data-aos="fade-up" id="contact">
             <h2 className="contact__title">Contacto</h2>
             <span className="separator">•</span>
-            <form action="/" className="contact__form">
+            <form method="post" action="m4tias.a@gmail.com" enctype="text/plain" className="contact__form">
                 <p>Envianos tu consulta y nos pondremos en contacto!</p>
                 <div className="contact__inputs">
-                    <input type="text" placeholder="Nombre" />
+                    <input type="text" placeholder="Nombre" name="Nombre" />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="text" placeholder="Asunto" />
+                    <input type="text" placeholder="Asunto" name="Asunto" />
                 </div>
-                <textarea name="message" className="contact__textarea" placeholder="Mensaje"></textarea>
+                <textarea name="Mensaje" className="contact__textarea" placeholder="Mensaje"></textarea>
                 <button>Enviar</button>
             </form>
         </section>
