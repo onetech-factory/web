@@ -13,7 +13,7 @@ const Contact = () => {
         <section className="contact" data-aos="fade-up" id="contact">
             <h2 className="contact__title">Contacto</h2>
             <span className="separator">•</span>
-            <form method="post" action="m4tias.a@gmail.com" enctype="text/plain" className="contact__form">
+            <form method="post" action="mailto:m4tias.a@gmail.com" enctype="text/plain" className="contact__form">
                 <p>Envianos tu consulta y nos pondremos en contacto!</p>
                 <div className="contact__inputs">
                     <input type="text" placeholder="Nombre" name="Nombre" />
