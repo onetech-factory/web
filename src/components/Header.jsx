@@ -1,6 +1,6 @@
 import React from "react";
 import Typical from 'react-typical'
-/* import { Link } from "react-scroll"; */
+import { Link } from "react-scroll";
 import "../assets/styles/components/Header.css";
 import logo from "../assets/static/logo.png";
 import Particles from "react-particles-js";
@@ -25,7 +25,7 @@ const Header = () => {
             <img src={logo} alt="logo onetech" />
             <div className="header__phrase">
                 <h1>
-                    Somos <span>onetech<i className="fas fa-location-arrow"></i></span>
+                    Somos <Link to="contact" smooth="true"><span>onetech<i className="fas fa-location-arrow"></i></span></Link>
                     <Typical
                         steps={[
                             ' Sitios web a medida.', 2000,

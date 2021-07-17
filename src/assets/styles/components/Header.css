@@ -75,6 +75,7 @@
 
 .header__phrase span {
     color: #fca311;
+    cursor: pointer;
     font-size: 3.8rem;
     font-weight: 800;
     position: relative;
