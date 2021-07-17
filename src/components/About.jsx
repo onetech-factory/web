@@ -22,14 +22,14 @@ const About = () => {
                     <div className="about__text">
                         <h3>Equipo onetech</h3>
                         <p>
-                            Somos un equipo de profesionales enamorados de nuestro trabajo: brindar soluciones digitales en Internet. Nos involucramos totalmente y acompañamos a cada uno de nuestros clientes para obtener el mejor resultado. <br /> <span>¡Trabajemos juntos!</span>.
+                            Somos un equipo de profesionales enamorados de nuestro trabajo: brindar soluciones digitales en Internet. Nos involucramos y acompañamos a cada uno de nuestros clientes para obtener el mejor resultado. <br /> <span>¡Trabajemos juntos!</span>.
                         </p>
                     </div>
 
                     <div className="about__text">
                         <h3>Nuestra misión</h3>
                         <p>
-                            Nuestra filosofía de trabajo consiste en estar comprometidos con nuestros clientes, resolviendo sus problemas, asesorandolo y llevando su idea al siguiente nivel. Por eso ofrecemos nuestros servicios con un valor agregado: el trato cercano, transparente y eficaz.
+                            Nuestra filosofía de trabajo consiste en estar comprometidos con nuestros clientes, resolviendo sus problemas, asesorándolo y llevando su idea al siguiente nivel. Por eso ofrecemos nuestros servicios con un valor agregado: el trato cercano, transparente y eficaz.
                         </p>
                         <div className="about__links">
                             <a href="https://www.linkedin.com/company/onetech-factory/" title="Linkedin" target="_blank" rel="noreferrer">
