@@ -1,5 +1,4 @@
 .card {
-    border: 2px solid silver;
     padding: 30px 10px;
     text-align: justify;
 }
@@ -29,4 +28,30 @@
 
 .card p {
     color: rgb(156, 156, 156);
+}
+
+@media screen and (max-width: 900px) {
+
+    .card {
+        margin: auto;
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .card {
+        margin: auto;
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .card {
+        width: 100%;
+    }
+
 }

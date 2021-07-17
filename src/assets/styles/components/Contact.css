@@ -90,3 +90,70 @@
 .contact button:hover {
     box-shadow: 3px 3px 3px silver;
 }
+
+@media screen and (max-width: 1200px) {
+
+    .contact__form {
+        margin: 0 auto;
+        width: 60%;
+    }    
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .contact {
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    .contact__form {
+        margin: 0 auto;
+        width: 70%;
+    }    
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .contact {
+        height: auto;
+        margin-bottom: 100px;
+    }
+    
+    .contact__title {
+        font-size: 2rem;
+    }
+    
+    .contact__form {
+        margin: 0 auto;
+        width: 90%;
+    }
+    
+    .contact__form p {
+        font-weight: 700;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    .contact__inputs {
+        /*flex*/
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact__inputs input {
+        border: none;
+        border-bottom: 2px solid rgb(184, 184, 184);
+        color: black;
+        font-size: 1rem;
+        font-family: "mulish", sans-serif;
+        margin-bottom: 40px;
+        outline: none;
+        padding: 10px 20px;
+    
+        /*flex*/
+        flex-grow: 1;
+    }
+
+}

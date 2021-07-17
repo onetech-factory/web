@@ -1,12 +1,13 @@
 .about {
     height: calc(100vh);
-    margin: 0 auto;
     padding-top: 100px;
+    margin: auto;
     width: 80%;
 }
 
 .about__title {
     font-size: 3rem;
+    margin: auto;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -52,7 +53,13 @@
 
 .about__text p {
     color: rgb(156, 156, 156);
+    text-align: justify;
     line-height: 1.6rem;
+}
+
+.about__text span {
+    background-color: #fca311;
+    color: white
 }
 
 .about__links a {
@@ -66,4 +73,118 @@
 
 .fa-envelope-square {
     color: #fca311;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .about {
+        height: auto;
+        width: 100%;
+    }
+    
+    .about__title {
+        font-size: 2rem;
+    }
+    
+    .about__container {
+        /*flex*/
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about__images {
+        margin: auto;
+        margin-bottom: 40px;
+        width: 90%;
+    }
+    
+    .about__content {
+        padding: 0px 20px;
+        width: 100%;
+    }
+    
+    .about__text {
+        margin-bottom: 40px;
+    }
+
+    .about__links a {
+        font-size: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .about {
+        height: auto;
+        width: 100%;
+    }
+    
+    .about__title {
+        font-size: 2rem;
+    }
+    
+    .about__container {
+        /*flex*/
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about__images {
+        margin: auto;
+        margin-bottom: 40px;
+        width: 90%;
+    }
+    
+    .about__content {
+        padding: 0px 20px;
+        width: 100%;
+    }
+    
+    .about__text {
+        margin-bottom: 40px;
+    }
+
+    .about__links a {
+        font-size: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .about {
+        height: auto;
+        width: 100%;
+    }
+    
+    .about__title {
+        font-size: 2rem;
+    }
+    
+    .about__container {
+        /*flex*/
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about__images {
+        margin: auto;
+        margin-bottom: 40px;
+        width: 90%;
+    }
+    
+    .about__content {
+        padding: 0px 20px;
+        width: 100%;
+    }
+    
+    .about__text {
+        margin-bottom: 40px;
+    }
+
+    .about__links a {
+        font-size: 3rem;
+    }
+
 }

@@ -1,5 +1,6 @@
 .footer {
-    padding-top: 200px;
+    background-color: white;
+    padding-top: 30px;
     text-align: center;
 }
 
@@ -8,7 +9,7 @@
 }
 
 .footer__copyright {
-    color: rgb(156, 156, 156);
+    color: black;
     font-size: .8rem;
     font-weight: 400;
     line-height: 50px;
