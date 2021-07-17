@@ -20,7 +20,7 @@ const Contact = () => {
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <input type="text" placeholder="Asunto" name="Asunto" autocomplete="off" />
                 </div>
-                <textarea name="Mensaje" className="contact__textarea" placeholder="Mensaje"></textarea>
+                <textarea name="Mensaje" className="contact__textarea" placeholder="Mensaje" autocomplete="off"></textarea>
                 <button type="submit">Enviar</button>
             </form>
         </section>
