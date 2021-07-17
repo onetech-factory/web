@@ -4,7 +4,6 @@ import Typical from 'react-typical'
 import "../assets/styles/components/Header.css";
 import logo from "../assets/static/logo.png";
 import Particles from "react-particles-js";
-import Fondo from "../assets/static/fondo.svg";
 
 const Header = () => {
 
