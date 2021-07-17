@@ -55,7 +55,7 @@ const Header = () => {
                             "value": 3
                         },
                         "color": {
-                            "value": "#000000"
+                            "value": "#000"
                         },
                         links: {
                             color: "#ffffff",

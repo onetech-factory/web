@@ -201,6 +201,10 @@
         right: -25px;
     }
 
+    .header__particles {
+        opacity: .5;
+    }
+
 }
 
 @media screen and (max-width: 576px) {

@@ -32,8 +32,12 @@ const About = () => {
                             Nuestra filosofía de trabajo consiste en estar comprometidos con nuestros clientes, resolviendo sus problemas, asesorandolo y llevando su idea al siguiente nivel. Por eso ofrecemos nuestros servicios con un valor agregado: el trato cercano, transparente y eficaz.
                         </p>
                         <div className="about__links">
-                            <a href="/"><i className="fab fa-linkedin"></i></a>
-                            <a href="/"><i className="fas fa-envelope-square"></i></a>
+                            <a href="https://www.linkedin.com/company/onetech-factory/" title="Linkedin" target="_blank" rel="noreferrer">
+                                <i className="fab fa-linkedin"></i>
+                            </a>
+                            <a href="mailto:hola@onetech.ar" title="hola@onetech.ar">
+                                <i className="fas fa-envelope-square"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
