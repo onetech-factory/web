@@ -229,3 +229,23 @@
         right: -25px;
     }
 }
+
+@media screen and (max-width: 458px) {
+
+    .header__phrase span {
+        font-size: 1.3rem;
+        font-weight: 900;
+    }
+
+    .header__phrase h1 {
+        font-size: 1.8rem;
+        margin-top: 70%;
+        width: 90%;
+    }
+
+    .header__phrase i {
+        font-size: 1.1rem;
+        bottom: -10px;
+        right: -25px;
+    }
+}
