@@ -6,15 +6,20 @@
 
 body {
     background-color: white;
-    font-family: sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 16px;
 }
 
-.app {
-}
+/* .app {
+} */
 
 .fa-arrow-up {
   font-size: 2rem;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-VariableFont_wght.ttf") format("truetype");
 }
 
 
