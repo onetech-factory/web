@@ -1,9 +1,9 @@
 import React from "react";
 import Typical from 'react-typical'
 import { Link } from "react-scroll";
-import "../assets/styles/components/Header.css";
 import logo from "../assets/static/logo.png";
 import Particles from "react-particles-js";
+import "../assets/styles/components/Header.css";
 
 const Header = () => {
 
