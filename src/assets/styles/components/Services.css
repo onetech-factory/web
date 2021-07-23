@@ -1,11 +1,11 @@
-.main {
+.services {
     height: calc(100vh);
     margin: 0 auto;
     padding-top: 100px;
     width: 80%;
 }
 
-.main__title {
+.services__title {
     font-size: 3rem;
     margin-bottom: 20px;
     text-align: center;
@@ -19,13 +19,13 @@
     text-align: center;
 }
 
-.main__subtitle {
+.services__subtitle {
     color: rgb(156, 156, 156);
     margin-bottom: 60px;
     text-align: center;
 }
 
-.main__cards {
+.services__cards {
     /*grid*/
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -34,11 +34,11 @@
 
 @media screen and (max-width: 1200px) {
 
-    .main {
+    .services {
         height: auto;
     }
 
-    .main__cards {
+    .services__cards {
         /*grid*/
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -49,12 +49,12 @@
 
 @media screen and (max-width: 1200px) {
 
-    .main {
+    .services {
         height: auto;
         width: 90%;
     }
 
-    .main__cards {
+    .services__cards {
         /*grid*/
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -65,12 +65,12 @@
 
 @media screen and (max-width: 900px) {
 
-    .main {
+    .services {
         height: auto;
         width: 90%;
     }
 
-    .main__cards {
+    .services__cards {
         /*grid*/
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -82,22 +82,22 @@
 
 @media screen and (max-width: 768px) {
 
-    .main {
+    .services {
         height: auto;
         width: 90%;
     }
     
-    .main__title {
+    .services__title {
         font-size: 2rem;
     }
     
-    .main__subtitle {
+    .services__subtitle {
         color: rgb(156, 156, 156);
         margin-bottom: 60px;
         text-align: center;
     }
     
-    .main__cards {
+    .services__cards {
         /*grid*/
         display: grid;
         grid-template-columns: repeat(1, 1fr);

@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import Main from "../components/Main";
+import Services from "../components/Services";
 import Footer from "../components/Footer";
 import About from "../components/About";
 import Contact from "../components/Contact";
@@ -10,7 +10,7 @@ const App = () => {
     return (
         <div className="app">
             <Header />
-            <Main />
+            <Services />
             <About />
             <Contact />
             <Footer />

@@ -3,20 +3,20 @@ import { Link } from "react-scroll";
 import Card from "./Card";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import "../assets/styles/components/Main.css";
+import "../assets/styles/components/Services.css";
 
-const Main = () => {
+const Services = () => {
 
     useEffect(() => {
         Aos.init({ duration: 2000 });
     }, []);
 
     return (
-        <section className="main" data-aos="fade-up" id="main">
-            <h2 className="main__title">Nuestros servicios</h2>
+        <section className="services" data-aos="fade-up" id="services">
+            <h2 className="services__title">Nuestros servicios</h2>
             <span className="separator">•</span>
-            <p className="main__subtitle">Construimos soluciones de softwares adaptadas a tus necesidades</p>
-            <div className="main__cards">
+            <p className="services__subtitle">Construimos soluciones de softwares adaptadas a tus necesidades</p>
+            <div className="services__cards">
                 <Link to="contact" smooth="true">
                     <Card
                         icon="fas fa-desktop"
@@ -43,4 +43,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default Services;
