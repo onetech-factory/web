@@ -32,7 +32,7 @@ const Header = () => {
                             'Increíbles sitios web.', 2000,
                             'Adaptados al futuro.', 2000
                         ]}
-                        loop={Infinity}
+                        loop={Infinity} 
                         wrapper="p"
                     />
                 </h1>
