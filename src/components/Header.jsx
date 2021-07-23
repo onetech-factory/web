@@ -29,8 +29,8 @@ const Header = () => {
                     Somos <Link to="contact" smooth="true"><span>onetech{/* <i className="fas fa-location-arrow"></i> */}</span></Link>
                     <Typical
                         steps={[
-                            ' Sitios web a medida.', 2000,
-                            ' Adaptado para moviles.', 2000
+                            'Increíbles sitios web.', 2000,
+                            'Adaptados al futuro.', 2000
                         ]}
                         loop={Infinity}
                         wrapper="p"
