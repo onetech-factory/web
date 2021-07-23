@@ -3,6 +3,7 @@ import Typical from 'react-typical'
 import { Link } from "react-scroll";
 import logo from "../assets/static/logo.png";
 import Particles from "react-particles-js";
+/* import "../assets/styles/font-awesome/css/fontawesome.css"; */
 import "../assets/styles/components/Header.css";
 
 const Header = () => {

@@ -233,12 +233,12 @@
 @media screen and (max-width: 458px) {
 
     .header__phrase span {
-        font-size: 1.3rem;
+        font-size: 1.25rem;
         font-weight: 900;
     }
 
     .header__phrase h1 {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
         margin-top: 70%;
         width: 90%;
     }
