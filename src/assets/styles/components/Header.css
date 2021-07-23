@@ -76,15 +76,15 @@
 .header__phrase span {
     color: #fca311;
     cursor: pointer;
-    font-size: 3.8rem;
-    font-weight: 800;
+    font-size: 3.5rem;
+    font-weight: 900;
     position: relative;
     text-transform: uppercase;
 }
 
 .header__phrase h1 {
     color: black;
-    font-size: 5rem;
+    font-size: 4.8rem;
     margin-top: 28vh;
     width: 70%;
 }
