@@ -26,7 +26,7 @@ const Header = () => {
             <img src={logo} alt="logo onetech" />
             <div className="header__phrase">
                 <h1>
-                    Somos <Link to="contact" smooth="true"><span>onetech<i className="fas fa-location-arrow"></i></span></Link>
+                    Somos <Link to="contact" smooth="true"><span>onetech{/* <i className="fas fa-location-arrow"></i> */}</span></Link>
                     <Typical
                         steps={[
                             ' Sitios web a medida.', 2000,
