@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import Formik from "formik";
-import ContactSchema from "./Yup";
+import ContactSchema from "./Yup"; 
 import "aos/dist/aos.css";
 import "../assets/styles/components/Contact.css";
 
