@@ -9,7 +9,7 @@ const Contact = (props) => {
 
     // FORMIK VALUES
     const {
-        values,
+        values, 
         touched,
         errors,
         handleChange,
