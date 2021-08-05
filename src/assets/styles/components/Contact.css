@@ -46,6 +46,14 @@
     border-bottom: 2px solid black;
 }
 
+.contact__valid {
+    border-bottom: 2px solid rgb(94, 196, 124);
+}
+
+.contact__invalid {
+    border-bottom: 2px solid rgb(196, 94, 94);
+}
+
 .contact__inputs input::placeholder {
     color: rgb(184, 184, 184);
 }
