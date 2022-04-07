@@ -14,9 +14,17 @@ const App = () => {
             <About />
             <Contact />
             <Footer />
+            <a
+                href="https://wa.me/5491133236103"
+                className="whatsapp_float"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <i class="fa fa-whatsapp whatsapp-icon"></i>
+            </a>
             {/* <ScrollToTop smooth component={<i class="fas fa-arrow-up"></i>} /> */}
-        </div>
-  );
+        </div >
+    );
 };
 
 export default App;

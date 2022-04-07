@@ -3,6 +3,7 @@ import Aos from "aos";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import emailjs, { init } from 'emailjs-com';
+import axios from 'axios'
 import Swal from 'sweetalert2';
 import "aos/dist/aos.css";
 import "../assets/styles/components/Contact.css";
