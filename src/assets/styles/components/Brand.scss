@@ -101,3 +101,40 @@ $animationSpeed: 60s;
         }
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .brand {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .brand {
+        height: auto;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .brand {
+        height: auto;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .brand {
+        height: auto;
+        width: 90%;
+    }
+
+    .brand__title {
+        font-size: 2rem;
+    }
+
+    .brand__subtitle {
+        color: rgb(156, 156, 156);
+        margin-bottom: 60px;
+        text-align: center;
+    }
+}
