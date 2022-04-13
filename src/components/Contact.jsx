@@ -35,7 +35,7 @@ const Contact = () => {
         initialValues: { nombre: "", correo: "", mensaje: "", },
         validationSchema: contactSchema,
         onSubmit: (values, { setSubmitting, resetForm }) => {
-            emailjs.send('gmail', 'template_nuyel5o', values)
+            emailjs.send('service_wydg9pj', 'template_nuyel5o', values, "user_ItTEUboVgoO9qq6U1wSsJ")
                 .then(function () {
                     console.log('SUCCESS!');
                     Swal.fire({
