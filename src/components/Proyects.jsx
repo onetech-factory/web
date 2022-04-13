@@ -5,7 +5,7 @@ import image2 from "../assets/static/2.png";
 import image3 from "../assets/static/3.png";
 import image4 from "../assets/static/4.png";
 import "aos/dist/aos.css";
-import "../assets/styles/components/Proyects.css";
+import "../assets/styles/components/";
 
 const Proyects = () => {
 
