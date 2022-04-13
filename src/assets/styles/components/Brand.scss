@@ -125,7 +125,7 @@ $animationSpeed: 60s;
 @media screen and (max-width: 768px) {
     .brand {
         height: auto;
-        width: 90%;
+        width: 100%;
     }
 
     .brand__title {
@@ -136,5 +136,44 @@ $animationSpeed: 60s;
         color: rgb(156, 156, 156);
         margin-bottom: 60px;
         text-align: center;
+    }
+
+    .slider {
+        display: flex;
+
+        height: 100px;
+        overflow: hidden;
+        position: relative;
+        align-items: center;
+
+        &::before,
+        &::after {
+            @include white-gradient;
+            content: "";
+            position: absolute;
+            z-index: 2;
+        }
+
+        &::after {
+            right: 0;
+            top: 0;
+            transform: rotateZ(180deg);
+        }
+
+        &::before {
+            left: 0;
+            top: 0;
+        }
+
+        .slide-track {
+            animation: scroll $animationSpeed linear infinite;
+            display: flex;
+        }
+
+        .slide {
+            img {
+                filter: grayscale(0.9);
+            }
+        }
     }
 }
