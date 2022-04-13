@@ -92,6 +92,12 @@
     color: #fca311;
 }
 
+.main__subtitle {
+    color: rgb(156, 156, 156);
+    margin-bottom: 60px;
+    text-align: center;
+}
+
 @media screen and (max-width: 1200px) {
 
     .proyects {
