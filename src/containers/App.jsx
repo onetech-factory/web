@@ -12,13 +12,6 @@ import "../assets/styles/App.css";
 
 const App = () => {
 
-    const [scroll, set_scroll] = useState(0);
-
-    window.onscroll = () => {
-        let y = window.scrollY;
-        set_scroll(y)
-    };
-
     return (
         <div className="app">
             <Header />
@@ -27,10 +20,7 @@ const App = () => {
             <About />
             <Contact />
             <Footer />
-            {
-                scroll > 600 && <Whatsapp />
-            }
-
+            <Whatsapp />
             {/* <ScrollToTop smooth component={<i class="fas fa-arrow-up"></i>} /> */}
         </div >
     );
