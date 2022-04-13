@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import About from "../components/About";
 import Contact from "../components/Contact";
 import Whatsapp from "../components/Whatsapp"
+import Proyects from "../components/Proyects";
 /* import ScrollToTop from "react-scroll-to-top"; */
 import "../assets/styles/App.css";
 
@@ -22,6 +23,7 @@ const App = () => {
         <div className="app">
             <Header />
             <Services />
+            <Proyects />
             <About />
             <Contact />
             <Footer />
