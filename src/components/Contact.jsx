@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Aos from "aos";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import emailjs, { init } from 'emailjs-com';
-import axios from 'axios'
 import Swal from 'sweetalert2';
 import "aos/dist/aos.css";
 import "../assets/styles/components/Contact.css";
@@ -26,21 +25,6 @@ const contactSchema = Yup.object().shape({
 
 const Contact = () => {
 
-    const [sent, setSent] = useState(false)
-    const [message, setMessage] = useState("")
-    const [name, setName] = useState("")
-    const [email, setEmail] = useState("")
-
-    const handleSend = async (e) => {
-        setSent(true)
-        try {
-            await axios.post("http://localhost:3005/send-email", {
-                message, name, email
-            })
-        } catch (error) {
-            console.error(error)
-        }
-    }
 
 
     useEffect(() => {
